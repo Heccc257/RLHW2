@@ -58,3 +58,4 @@ def make_move(s: State, a: Move) -> Tuple[State, float]:
         return State(state_id[tgt], tgt[0], tgt[1]), r_init[tgt[0]][tgt[1]]
 
 origin_moves = [[Move.STAY for _ in range(N)] for _ in range(N)]
+print(origin_moves)
